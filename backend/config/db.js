@@ -1,4 +1,6 @@
 import mongoose from 'mongoose';
+// const dotenv = require('dotenv');
+
 
  export const connectToDb = async()=>{
     await mongoose.connect(process.env.DB_CONNECTION)
